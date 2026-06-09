@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+padding: 15px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(144, 203, 221);
+}
+.cartao {
+ width: 260px;
+ height: 200px;
+}
+.cartao-imagem{
+width: 100%;
+}
+body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-color: rgb(215, 240, 255);
+}
+main{
+flex: 1;
+}
+.cabecalho-link{
+color: rgb(188, 231, 236);
+text-decoration: none;
+}
+h1{
+color: rgb(17, 14, 14);
+}
+footer{
+    background-color: rgb(254, 253, 255);
+    padding: 15px 25px;
+    color: black;
+}
