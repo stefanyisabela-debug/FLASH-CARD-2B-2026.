@@ -24,6 +24,9 @@ background-color: rgb(215, 240, 255);
 }
 main{
 flex: 1;
+display:flex;
+flex-direction: column;
+align-items: center;
 }
 .cabecalho-link{
 color: rgb(188, 231, 236);
@@ -36,4 +39,18 @@ footer{
     background-color: rgb(254, 253, 255);
     padding: 15px 25px;
     color: black;
+}
+.cartao-interno{
+    position: relative;
+    transition:transform 0.8s;
+    transform-style: preserve-3d;
+}
+.cartao-frente, .cartao-verso{
+    poition: absolute;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgb(22, 22, 22);
+    backface-visibility: hidden;
+}
+.cartao-verso{
+    transform: rotateY(180deg)
 }
